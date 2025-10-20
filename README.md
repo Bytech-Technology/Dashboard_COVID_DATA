@@ -1,92 +1,88 @@
-<center>
-<img src="assets/logo.png" alt="Project Logo" width="150"/>
-<h1>
-COVID-19 DASHBOARD
-</h1>
-<p>
-An interactive data analysis dashboard that visualizes COVID-19
-statistics with light/dark mode support and responsive layout.
+<p align="center">
+    <img src="assets/logo.png" alt="Project Logo" width="150"/>
 </p>
-</center>
+
+<h1 align="center">COVID-19 DASHBOARD</h1>
+
+<p align="center">
+An interactive Python dashboard for exploring COVID-19 statistics with support for light/dark mode and responsive layouts.
+</p>
 
 ## Overview
 
-The **COVID-19 Dashboard** is a Python-based data visualization projectbuilt with **PyQt5** and **Matplotlib**.
-It allows users to exploreCOVID-19 data interactively through graphs and key performance indicators (KPIs).
+The COVID-19 Dashboard is a Python-based data visualization tool built with PyQt5 and Matplotlib. It allows users to interactively explore COVID-19 data through dynamic charts, KPIs, and trends.
 
 ## Features
 
-- 🌞 **Light/Dark Theme Toggle** --- switch seamlessly between visual
-- 📈 **Dynamic Charts** --- automatic updates and smooth animations
-- 🧩 **Resizable Layout** --- UI scales to fit various window sizes.
-- 📂 **CSV Data Integration** --- reads data directly from a CSV
-- ⚙️ **Customizable Dashboard** --- flexible structure for adding new
+* Light/Dark Theme Toggle — switch seamlessly between light and dark modes.
+* Dynamic Charts & KPIs — visual updates and smooth animations.
+* Responsive Layout — adapts to different screen sizes.
+* CSV Data Integration — load and visualize your own datasets easily.
+* Customizable Dashboard — easily extendable for new charts and KPIs.
 
 ## Technologies Used
 
-- **Python 3.10+**
-- **PyQt5**
-- **Matplotlib**
-- **Pandas**
-- **Colorama** (for terminal color support)
+* Python 3.10+
+* PyQt5 (GUI Framework)
+* Matplotlib (Charts & Visualizations)
+* Pandas (Data Manipulation)
+* Colorama (Terminal Colors, optional for logs)
 
 ## Setup Instructions
 
 1.Clone the repository:
 
-``` bash
+```bash
 git clone https://github.com/yourusername/covid19-dashboard.git
 cd covid19-dashboard
 ```
 
 2.Install dependencies:
 
-``` bash
+```bash
 pip install -r requirements.txt
 ```
 
 3.Run the dashboard:
 
-``` bash
+```bash
 python main.py
 ```
 
 ## Data Source
 
-The dashboard loads data from the file:
+The dashboard reads data from:
 
+```bash
 data/dataset.csv
+```
 
-Make sure your CSV file contains at least the following columns:
+Ensure your CSV contains at least these columns:
 
-- **Date**
-- **Confirmed Cases**
-- **Recovered**
-- **Deaths**
+* Date
+* Confirmed Cases
+* Recovered
+* Deaths
 
-## Example Visualization
+## Example Visualizations
 
 The dashboard displays KPIs and charts such as:
 
-- Total confirmed vs recovered cases\
-- Death rates over time\
-- Daily case trends
+* Total confirmed vs recovered cases
+* Death rates over time
+* Daily case trends
 
-<center>
-    <p>MODE DARK</p>
-    <img src="assets/dashboard_black.png" title="" width="600" />
-    <p>MODE LIGHT</p>
-    <img src="assets/dashboard_light.png" title="" width="600"/>
-</center>
+<p align="center">
+    <b>Dark Mode</b><br>
+    <img src="assets/dashboard_black.png" width="600"/><br><br>
+    <b>Light Mode</b><br>
+    <img src="assets/dashboard_light.png" width="600"/>
+</p>
+
 ## Author
 
-Developed by **ZomboySoul** **Bytech Technology**--- 2025.\
-Feel free to contribute or suggest improvements!
+Developed by Bytech Technology, 2025. Contributions, suggestions, and feedback are welcome!
 
 ## License
 
-This project is licensed under the **MIT License**.
-
-<br>
-
-<vbr>
+This project is licensed under the MIT License.
